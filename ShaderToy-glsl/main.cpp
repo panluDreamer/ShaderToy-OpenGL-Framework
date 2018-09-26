@@ -66,8 +66,8 @@ int main(int argc, char **argv)
 	Model quad;
 	quad.init("quad.obj", false, true, false, false);
 	Shader shader;
-	shader.init("shader/main_vert.glsl", "shader/fire_ball_frag.glsl");
-	//shader.init("shader/main_vert.glsl", "shader/unreal_intro_frag.glsl");
+	//shader.init("shader/main_vert.glsl", "shader/fire_ball_frag.glsl");
+	shader.init("shader/main_vert.glsl", "shader/unreal_intro_frag.glsl");
 	vec3 iResolution = vec3(WIDTH, HEIGHT, 0);
 	clock_t start_time = clock();
 	clock_t curr_time;
